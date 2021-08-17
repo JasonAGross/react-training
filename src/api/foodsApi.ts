@@ -1,5 +1,11 @@
+import { Food } from '../App'
+
 export async function getFoods() {
-  return fetch('http://localhost:3001/foods')
+  const resp = await fetch('http://localhost:3001/foods')
+  if (!resp.ok) {
+    throw new Error('call to foods failed')
+  }
+  return resp.json() as Promise<Food[]>
 }
 
 export async function deleteFood(id: number) {
