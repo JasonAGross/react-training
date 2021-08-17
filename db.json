@@ -1,6 +1,13 @@
 {
   "foods": [
     {
+      "id": 1,
+      "name": "Carrots",
+      "qty": 4,
+      "minQty": 0,
+      "type": "produce"
+    },
+    {
       "id": 2,
       "name": "Potatoes",
       "qty": 4,
