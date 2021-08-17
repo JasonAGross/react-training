@@ -1,0 +1,11 @@
+{
+  "foods": [
+    {
+      "id": 2,
+      "name": "Potatoes",
+      "qty": 4,
+      "minQty": 0,
+      "type": "produce"
+    }
+  ]
+}
