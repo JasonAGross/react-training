@@ -13,6 +13,34 @@
       "qty": 4,
       "minQty": 0,
       "type": "produce"
+    },
+    {
+      "name": "Bread",
+      "qty": "1",
+      "minQty": "0",
+      "type": "grain",
+      "id": 4
+    },
+    {
+      "name": "Blueberries",
+      "qty": "2",
+      "minQty": "1",
+      "type": "fruit",
+      "id": 5
+    },
+    {
+      "name": "Green Beans",
+      "qty": "8",
+      "minQty": "2",
+      "type": "vegetable",
+      "id": 6
+    },
+    {
+      "name": "Eggplant",
+      "qty": "1",
+      "minQty": 0,
+      "type": "vegetable",
+      "id": 7
     }
   ]
 }

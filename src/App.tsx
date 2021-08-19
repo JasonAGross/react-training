@@ -1,13 +1,8 @@
 import { useEffect, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 import { getFoods, deleteFood } from "./api/foodsApi";
-
-export type Food = {
-  id: number;
-  name: string;
-  qty: number;
-  minQty: number;
-  type: string;
-}
+import { Food } from './FoodForm';
+import 'react-toastify/dist/ReactToastify.css';
 
 export function App () {
 
@@ -23,7 +18,9 @@ export function App () {
 
   return (
     <>
+      <ToastContainer />
       <h1>Pantry Manager</h1>
+
       <table>
         <thead>
           <tr>
